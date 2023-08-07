@@ -10824,3 +10824,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+#myCarousel img {
+  width: 100%;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Ajusta el tamaño de las imágenes manteniendo la relación de aspecto */
+}
+
+/* Estilo para los títulos y descripciones de las imágenes */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para mejorar la legibilidad */
+  padding: 10px;
+  color: #fff; /* Color del texto */
+}
+
